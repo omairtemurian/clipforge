@@ -1,0 +1,74 @@
+{
+  "id": "TASK-126",
+  "title": "T42c Engine: eye contact correction feasibility (consent-gated)",
+  "category": "engine",
+  "description": "SPEC-v2 3.5 eye contact; BLOCKED with evidence if none usable.",
+  "filesToCreateOrModify": [
+    "backend/clipforge/engines/eye_contact.py",
+    "backend/tests/engines/test_eye_contact.py"
+  ],
+  "acceptanceCriteria": [
+    "Verified feasible on macOS arm64 with probe output in progress.md, OR task marked BLOCKED with exact install/run error in docs/questions.md and parity.md (code for install_check + UI gate still delivered)",
+    "Research of candidate gaze-redirection models + licenses recorded in docs/decisions.md",
+    "Only enabled for frontal talking-head shots and own-face consent (SPEC-v2 1.4)",
+    "docs/HANDOFF.md updated (SPEC 0.11 sections) and committed with the code",
+    "docs/progress.md has the verification command(s) and last lines of real output (SPEC 0.4)",
+    "Commit message names the task id and T-id; nothing pushed",
+    "All v1 tests still pass (SPEC-v2 0.12)"
+  ],
+  "verificationCommands": [
+    "make check",
+    "make check-engines"
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "description": "Orient",
+      "details": "Read docs/HANDOFF.md, docs/progress.md, docs/decisions.md, git log -5. Confirm dependencies TASK-124 have passes:true.",
+      "pass": false
+    },
+    {
+      "step": 2,
+      "description": "Verify third-party APIs used",
+      "details": "Per SPEC-v2 0.1 check installed help()/source/`-h` or current official docs for every library call, ffmpeg filter, endpoint, scope and model name this task uses; record URL + date in docs/decisions.md and facts in HANDOFF Gotchas.",
+      "pass": false
+    },
+    {
+      "step": 3,
+      "description": "Implement",
+      "details": "Create/modify: backend/clipforge/engines/eye_contact.py, backend/tests/engines/test_eye_contact.py. Behavior: SPEC-v2 3.5 eye contact; BLOCKED with evidence if none usable.",
+      "pass": false
+    },
+    {
+      "step": 4,
+      "description": "Write/extend tests",
+      "details": "Tests for each acceptance criterion; real behavior, mock only external boundaries (respx recorded responses / fake clock / tiny fixtures). Engine tests use pytest marker engine_<name>.",
+      "pass": false
+    },
+    {
+      "step": 5,
+      "description": "Run verification",
+      "details": "Run: make check && make check-engines. Paste command + last lines of real output into docs/progress.md.",
+      "pass": false
+    },
+    {
+      "step": 6,
+      "description": "Handoff + commit",
+      "details": "Overwrite docs/HANDOFF.md (SPEC 0.11), set passes:true in .agent/tasks.json, log in .agent/logs/LOG.md, update docs/parity.md row if a feature changed status, commit `feat(TASK-126): T42c ...`. Never push.",
+      "pass": false
+    }
+  ],
+  "dependencies": [
+    "TASK-124"
+  ],
+  "estimatedComplexity": "medium",
+  "technicalNotes": [
+    "Source of truth: .agent/prd/SPEC-v2.md (owner v2 prompt) + .agent/prd/PRD-v2.md; v1 SPEC.md section 13 amendments still apply (LLM default = GitHub Copilot; never push).",
+    "SPEC-v2 0.1: verify every library API/CLI flag/endpoint/model name via installed help/source or CURRENT official docs; record URL + date in docs/decisions.md.",
+    "SPEC-v2 0.3/0.5: no stubs/TODO/fake data; mock only external boundaries (LLM HTTP, social/Drive/stock APIs via respx recorded responses, model downloads). Tests never hit the network.",
+    "SPEC-v2 0.9: schemas only in backend/clipforge/models.py; DB changes only via new numbered migrations that migrate v1 data; regenerate frontend types.",
+    "SPEC-v2 0.6/0.7: ambiguity -> simplest option + docs/decisions.md; external blocker -> exact error in docs/questions.md, mark BLOCKED, move on.",
+    "Clean-room (SPEC-v2 1.1/1.2): Never fetch opus.pro; original names/wording/assets only.",
+    "Engine (SPEC-v2 2.3): module with install_check() + capability flag; UI shows 'Not installed — see setup'. Tests marked engine_<name>, skipped only when not installed; verify feasibility on macOS arm64; if unusable mark BLOCKED with evidence (exact install/run error) in docs/questions.md and parity.md."
+  ]
+}

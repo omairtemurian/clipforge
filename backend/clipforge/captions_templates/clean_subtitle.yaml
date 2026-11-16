@@ -1,0 +1,13 @@
+# Plain white subtitles in the lower third: no highlight, emphasis color or emoji.
+font: Inter Bold
+size: 37
+primary_color: "#FFFFFF"
+highlight_color: "#FFFFFF"
+emphasis_color: "#FFFFFF"
+outline: 1.9
+shadow: 1.2
+box: false
+uppercase: false
+position: lower_third
+max_words_per_line: 3
+emoji: false

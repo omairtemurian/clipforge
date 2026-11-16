@@ -1,0 +1,16 @@
+# Two sentence-case lines whose words appear as they are spoken; spoken word sky blue.
+font: Inter Bold
+size: 40
+primary_color: "#F5F5F5"
+highlight_color: "#7FDBFF"
+emphasis_color: "#FFB86C"
+outline: 1.9
+outline_color: "#000000"
+shadow: 1.2
+box: false
+uppercase: false
+position: lower_third
+max_words_per_line: 4
+max_lines: 2
+animation: reveal
+emoji: false

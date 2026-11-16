@@ -1,0 +1,16 @@
+# Two short uppercase lines like a news headline, fading in; spoken word amber.
+font: Inter Bold
+size: 44
+primary_color: "#FFFFFF"
+highlight_color: "#FF9F1C"
+emphasis_color: "#2EC4B6"
+outline: 2.2
+outline_color: "#000000"
+shadow: 0
+box: false
+uppercase: true
+position: lower_third
+max_words_per_line: 3
+max_lines: 2
+animation: fade
+emoji: false

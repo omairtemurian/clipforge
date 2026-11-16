@@ -1,0 +1,47 @@
+# Dark Edit: darker exposure, more contrast, less color, a vignette and light
+# grain; slow push-ins, low risers and impacts, glowing neon captions.
+name: Dark Edit
+description: Dark desaturated grade, vignette and grain, slow push-ins, impacts, neon captions.
+kinds:
+  [zoom_punch, zoom_push, zoom_out_reveal, shake, flash, transition, grade_change,
+   vignette, grain, caption_style, sfx, music_bed, silence_before_drop, audio_fx]
+music:
+  moods: [dark, dramatic, electronic, driving]
+  bpm: [70, 115]
+  gain_db: -18
+caption_style: {style: neon, emphasis_scale: 1.3}
+grade: {look: dark, amount: 0.85}
+vignette: {strength: 0.45}
+grain: {strength: 0.15}
+params:
+  zoom_punch: {scale: 1.15, ease_frames: 2}
+  zoom_push: {scale_from: 1.0, scale_to: 1.12}
+  shake: {strength: 0.4}
+  flash: {color: white, peak: 0.6}
+  transition: {type: whip}
+  sfx: {asset: impact_boom, gain_db: -6}
+rules:
+  - signal: hook
+    moves: [zoom_punch]
+  - signal: punchline
+    moves: [zoom_punch]
+  - signal: punchline
+    moves: [bass_drop]
+    from_intensity: standard
+  - signal: setup
+    moves: [zoom_push]
+  - signal: scene_cut
+    moves: [transition]
+  - signal: emphasis
+    moves: [zoom_punch]
+  - signal: payoff
+    moves: [zoom_out_reveal]
+    from_intensity: standard
+  - signal: energy_peak
+    moves: [shake]
+    from_intensity: pro
+  - signal: downbeat
+    moves: [flash]
+    every: 4
+    from_intensity: pro
+interrupts: [zoom_punch, zoom_push, shake]

@@ -1,0 +1,16 @@
+# Fat rounded capitals; the spoken word pops in cyan.
+font: Titan One
+size: 58
+primary_color: "#FFFFFF"
+highlight_color: "#00E5FF"
+emphasis_color: "#FF4081"
+outline: 5
+outline_color: "#12123A"
+shadow: 0
+box: false
+uppercase: true
+position: lower_third
+max_words_per_line: 3
+max_lines: 1
+animation: pop
+emoji: false

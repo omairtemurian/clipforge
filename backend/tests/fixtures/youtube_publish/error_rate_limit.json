@@ -1,0 +1,13 @@
+{
+  "error": {
+    "code": 429,
+    "message": "The user has sent too many requests in a given timeframe.",
+    "errors": [
+      {
+        "message": "The user has sent too many requests in a given timeframe.",
+        "domain": "youtube.video",
+        "reason": "rateLimitExceeded"
+      }
+    ]
+  }
+}

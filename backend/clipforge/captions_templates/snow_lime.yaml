@@ -1,0 +1,16 @@
+# White words with a dark outline; the spoken word turns green.
+font: Poppins Black
+size: 70
+primary_color: "#FFFFFF"
+highlight_color: "#22C55E"
+emphasis_color: "#FFD60A"
+outline: 4.5
+outline_color: "#06210F"
+shadow: 0
+box: false
+uppercase: false
+position: lower_third
+max_words_per_line: 3
+max_lines: 1
+animation: none
+emoji: false

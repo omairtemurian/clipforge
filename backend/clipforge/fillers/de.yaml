@@ -1,0 +1,4 @@
+# German ("um" is a German word, so it is not listed). "hm", "also" and
+# "naja" only between pauses.
+always: ["äh", "ähm", "ähh", "öh", "öhm"]
+alone: ["hm", "hmm", "also", "naja"]

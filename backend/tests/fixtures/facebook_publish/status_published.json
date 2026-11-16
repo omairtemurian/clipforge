@@ -1,0 +1,13 @@
+{
+  "status": {
+    "video_status": "ready",
+    "uploading_phase": { "status": "complete", "bytes_transfered": 2600 },
+    "processing_phase": { "status": "complete" },
+    "publishing_phase": {
+      "status": "complete",
+      "publish_status": "published",
+      "publish_time": 1793518200
+    }
+  },
+  "id": "1203457689012345"
+}

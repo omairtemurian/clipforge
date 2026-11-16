@@ -1,0 +1,16 @@
+# Blocky white capitals on a black box; the spoken word is yellow.
+font: Bungee
+size: 54
+primary_color: "#FFFFFF"
+highlight_color: "#FFE600"
+emphasis_color: "#FF5C8A"
+outline: 8
+outline_color: "#000000"
+shadow: 0
+box: true
+uppercase: true
+position: lower_third
+max_words_per_line: 3
+max_lines: 1
+animation: none
+emoji: false

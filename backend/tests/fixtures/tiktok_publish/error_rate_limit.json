@@ -1,0 +1,8 @@
+{
+  "data": {},
+  "error": {
+    "code": "rate_limit_exceeded",
+    "message": "Your request is blocked due to exceeding the API rate limit.",
+    "log_id": "20261101073001F1E2D3C4B5A6978869AB"
+  }
+}

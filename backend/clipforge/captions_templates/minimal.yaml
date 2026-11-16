@@ -1,0 +1,13 @@
+# Small light-grey sentence-case text in the lower third; the spoken word turns white.
+font: Inter Bold
+size: 40
+primary_color: "#D4D4D8"
+highlight_color: "#FFFFFF"
+emphasis_color: "#FFD23F"
+outline: 1.5
+shadow: 1.2
+box: false
+uppercase: false
+position: lower_third
+max_words_per_line: 3
+emoji: false

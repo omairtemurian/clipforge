@@ -1,0 +1,59 @@
+# Phonk Edit: the Dark Edit look on a strong-beat bed (120-160 BPM): zoom
+# punches, shakes and flashes on the beats, a bass drop on the punchline,
+# speed ramps and a dense sound design. Over a bed, punches and shakes last
+# one beat, so the picture snaps back on the next beat as well.
+name: Phonk Edit
+description: Dark look cut to a heavy beat, punches and shakes on downbeats, bass drop on the punchline.
+kinds:
+  [zoom_punch, zoom_push, zoom_out_reveal, shake, flash, rgb_split, speed_ramp,
+   transition, grade_change, vignette, grain, caption_style, sfx, music_bed,
+   silence_before_drop, audio_fx]
+music:
+  moods: [phonk, dark, driving, electronic, dramatic]
+  bpm: [120, 160]
+  gain_db: -14
+caption_style: {style: neon, emphasis_scale: 1.35, shake_on_loud: true}
+grade: {look: dark, amount: 1.0}
+vignette: {strength: 0.5}
+grain: {strength: 0.2}
+params:
+  zoom_punch: {scale: 1.25, ease_frames: 0}
+  shake: {strength: 0.6, frequency_hz: 14}
+  flash: {color: white, peak: 0.9}
+  speed_ramp: {speed_from: 1.0, speed_to: 0.4}
+  transition: {type: flash}
+  sfx: {asset: impact_boom, gain_db: -4}
+lengths:
+  zoom_punch: 0.5
+beat_lengths:
+  zoom_punch: 1
+  shake: 1
+snap:
+  zoom_punch: beat
+  shake: beat
+rules:
+  - signal: hook
+    moves: [zoom_punch, flash]
+  - signal: punchline
+    moves: [bass_drop]
+  - signal: punchline
+    moves: [zoom_punch]
+  - signal: downbeat
+    moves: [zoom_punch]
+  - signal: beat
+    moves: [shake, flash]
+    cycle: true
+    every: 4
+    phase: 2
+    from_intensity: standard
+  - signal: punchline
+    moves: [speed_ramp]
+    from_intensity: pro
+  - signal: scene_cut
+    moves: [transition]
+  - signal: emphasis
+    moves: [zoom_punch]
+  - signal: energy_peak
+    moves: [shake]
+    from_intensity: standard
+interrupts: [zoom_punch, shake, flash]

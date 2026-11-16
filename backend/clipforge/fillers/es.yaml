@@ -1,0 +1,3 @@
+# Spanish. "este" (this) and "pues" (well) only between pauses.
+always: ["eh", "ehm", "em", "emm", "mmm"]
+alone: ["este", "pues"]

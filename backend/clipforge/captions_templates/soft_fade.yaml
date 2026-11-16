@@ -1,0 +1,16 @@
+# Two quiet sentence-case lines that fade in together, a thin stroke and a soft shadow.
+font: Inter Bold
+size: 38
+primary_color: "#FFFFFF"
+highlight_color: "#B8F2E6"
+emphasis_color: "#FFD6A5"
+outline: 1.5
+outline_color: "#1B1B1F"
+shadow: 2.5
+box: false
+uppercase: false
+position: lower_third
+max_words_per_line: 4
+max_lines: 2
+animation: fade
+emoji: false

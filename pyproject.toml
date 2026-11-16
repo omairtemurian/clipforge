@@ -1,0 +1,110 @@
+[project]
+name = "clipforge"
+version = "0.1.0"
+description = "Local AI video clipping tool"
+readme = "docs/PRD.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "cryptography>=50.0.2",
+    "fastapi",
+    "faster-whisper>=1.2.1",
+    "fonttools>=4.68.0",
+    "httpx>=0.28.1",
+    "librosa>=0.11.0",
+    "mcp>=2.3.0",
+    "mediapipe==0.10.33",
+    "mlx-whisper>=0.4.3 ; platform_machine == 'arm64' and sys_platform == 'darwin'",
+    "numpy>=2.4.6",
+    "onnxruntime>=1.31.1",
+    "opencv-contrib-python>=5.0.0.93",
+    "pillow>=13.0.0",
+    "pydantic",
+    "pydantic-settings>=2.16.2",
+    "python-multipart>=0.0.32",
+    "pyyaml>=6.0.3",
+    "scenedetect>=0.7.2",
+    "sqlalchemy>=2.1.6",
+    "sqlmodel",
+    "uvicorn",
+    "yt-dlp>=2026.10.26",
+]
+
+[project.scripts]
+clipforge = "clipforge.cli:main"
+clipforge-mcp = "clipforge.mcp_server:main"
+
+[dependency-groups]
+dev = [
+    "mypy",
+    "pytest",
+    "respx>=0.23.1",
+    "ruff",
+    "types-pyyaml>=6.0.12.20261030",
+    "types-yt-dlp>=2026.8.19.20261030",
+]
+
+[tool.uv]
+# scenedetect requires opencv-python and mediapipe opencv-contrib-python, and
+# both install the `cv2` package. Only opencv-contrib-python, which has every
+# module of opencv-python, is installed (docs/decisions.md, TASK-22).
+exclude-dependencies = ["opencv-python"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["backend/clipforge"]
+
+[tool.pytest.ini_options]
+testpaths = ["backend/tests"]
+pythonpath = ["backend", "backend/tests"]
+markers = [
+    "slow: runs a real ML model (skipped when the model is not downloaded)",
+    "live: calls a real external service (skipped unless run with `-m live`)",
+    "engine_ollama_vlm: needs an Ollama server with a vision model",
+    "engine_deepfilternet: needs the deep-filter program (DeepFilterNet)",
+    "engine_kokoro: needs the kokoro-onnx package",
+    "engine_piper: needs the piper program",
+    "engine_demucs: needs the demucs package",
+    "engine_image_gen: needs the mflux package",
+    "engine_realesrgan: needs the realesrgan-ncnn-vulkan program",
+    "engine_voice_clone: needs the coqui-tts package",
+    "engine_yamnet: needs the YAMNet model in models/yamnet",
+    "engine_segment: needs mediapipe and the segmentation model in models/segment",
+    "engine_embeddings: needs the sentence-transformers package",
+    "engine_claude_code: needs the Claude Code CLI (claude)",
+    "engine_mlx_whisper: needs mlx-whisper on Apple Silicon and its model in models/whisper-mlx",
+]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+mypy_path = "backend"
+packages = ["clipforge"]
+
+[[tool.mypy.overrides]]
+# faster-whisper, fonttools, mediapipe, mlx-whisper, onnxruntime and
+# scenedetect ship no type information (no py.typed).
+module = [
+    "faster_whisper",
+    "faster_whisper.*",
+    "fontTools",
+    "fontTools.*",
+    "mediapipe",
+    "mediapipe.*",
+    "mlx_whisper",
+    "mlx_whisper.*",
+    "onnxruntime",
+    "onnxruntime.*",
+    "scenedetect",
+    "scenedetect.*",
+]
+ignore_missing_imports = true

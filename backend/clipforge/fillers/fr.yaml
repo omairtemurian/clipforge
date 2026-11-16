@@ -1,0 +1,3 @@
+# French. "ben", "bah" and "bon" only between pauses.
+always: ["euh", "euhm", "heu", "hum", "humm"]
+alone: ["ben", "bah", "bon"]

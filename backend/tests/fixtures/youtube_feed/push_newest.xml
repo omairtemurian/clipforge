@@ -1,0 +1,20 @@
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015"
+         xmlns="http://www.w3.org/2005/Atom">
+  <link rel="hub" href="https://pubsubhubbub.appspot.com"/>
+  <link rel="self" href="https://www.youtube.com/xml/feeds/videos.xml?channel_id=UCBR8-60-B28hp2BmDPdntcQ"/>
+  <title>YouTube video feed</title>
+  <updated>2026-10-31T14:00:41.512712+00:00</updated>
+  <entry>
+    <id>yt:video:86Ccatsw92c</id>
+    <yt:videoId>86Ccatsw92c</yt:videoId>
+    <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+    <title>not every pumpkin was built for the afterlife @evanandkatelynextras</title>
+    <link rel="alternate" href="http://www.youtube.com/watch?v=86Ccatsw92c"/>
+    <author>
+     <name>YouTube</name>
+     <uri>http://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+    </author>
+    <published>2026-10-31T14:00:33+00:00</published>
+    <updated>2026-10-31T14:00:41.512712+00:00</updated>
+  </entry>
+</feed>

@@ -1,0 +1,4 @@
+# Polish. "no", "jakby" and "znaczy" only between pauses (quoted: YAML reads
+# a bare no as false).
+always: ["yy", "ee", "eem", "mm", "yyy"]
+alone: ["no", "jakby", "znaczy"]

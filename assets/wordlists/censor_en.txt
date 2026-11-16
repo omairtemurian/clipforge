@@ -1,0 +1,40 @@
+# ClipForge default censor list, English (SPEC-v2 3.4).
+# One entry a line, matched against whole caption words in any case; an
+# entry ending in * censors every word that starts with it. Lines starting
+# with # are comments. Mild words (crap, damn) are left to the custom list.
+arse
+arsehole*
+ass
+asses
+asshole*
+bastard*
+bitch*
+bollocks
+bullshit*
+cock
+cocks
+cocksucker*
+cunt*
+dick
+dicks
+dickhead*
+fag
+fags
+faggot*
+fuck*
+horseshit*
+jackass*
+motherfuck*
+nigga*
+nigger*
+prick
+pricks
+pussies
+pussy
+retard
+retarded
+shit*
+slut*
+twat*
+wanker*
+whore*

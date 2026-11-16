@@ -1,0 +1,8 @@
+{
+  "data": {},
+  "error": {
+    "code": "spam_risk_user_banned_from_posting",
+    "message": "The user is banned from making new posts.",
+    "log_id": "20261101073001F1E2D3C4B5A6978869AB"
+  }
+}

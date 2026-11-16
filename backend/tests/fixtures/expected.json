@@ -1,0 +1,50 @@
+{
+  "generator": "scripts/make_fixture.sh",
+  "media": {
+    "duration": 60,
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "video_codec": "h264",
+    "pix_fmt": "yuv420p",
+    "audio_codec": "aac",
+    "sample_rate": 48000,
+    "channels": 1,
+    "title": "ClipForge sample fixture"
+  },
+  "speech": [
+    {"start": 0.5, "end": 2.9},
+    {"start": 3.45, "end": 6.05},
+    {"start": 6.75, "end": 7.15},
+    {"start": 7.7, "end": 10.5},
+    {"start": 11.1, "end": 13.5},
+    {"start": 16.9, "end": 19.7},
+    {"start": 20.25, "end": 22.45},
+    {"start": 23.25, "end": 23.6},
+    {"start": 24.3, "end": 27.1},
+    {"start": 27.65, "end": 30.05},
+    {"start": 30.65, "end": 32.85},
+    {"start": 35.8, "end": 38.4},
+    {"start": 38.95, "end": 41.35},
+    {"start": 42.1, "end": 42.45},
+    {"start": 43.0, "end": 45.8},
+    {"start": 46.4, "end": 48.8},
+    {"start": 49.35, "end": 51.55},
+    {"start": 55.5, "end": 57.9},
+    {"start": 58.45, "end": 59.5}
+  ],
+  "laughs": [
+    {"start": 13.8, "end": 16.3},
+    {"start": 33.15, "end": 35.15},
+    {"start": 51.85, "end": 54.85}
+  ],
+  "face": {
+    "description": "Drawn face-like overlay (skin-tone head ellipse with hair, brows, eyes, nose and mouth) that moves left to right at constant speed for the whole video; its vertical position is fixed. Positions are the face centre in pixels.",
+    "width": 240,
+    "height": 300,
+    "skin_rgb": [236, 192, 160],
+    "motion": "linear",
+    "start": {"t": 0, "center_x": 200, "center_y": 360},
+    "end": {"t": 60, "center_x": 1080, "center_y": 360}
+  }
+}

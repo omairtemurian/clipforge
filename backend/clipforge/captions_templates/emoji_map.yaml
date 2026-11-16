@@ -1,0 +1,301 @@
+# Keyword -> emoji that captions add after the keyword (SPEC 6.9). Keys are
+# lowercase single words, matched against a caption word in lowercase without
+# punctuation. Each value is one emoji character, followed by VARIATION
+# SELECTOR-16 where Unicode's fully-qualified form has it (no ZWJ sequences,
+# keycaps or flags), that the bundled Noto Emoji font has a glyph for.
+# Everyday words (think, look, time, work, okay...) are left out so that
+# emoji stay rare.
+
+# Laughter and fun
+laugh: 😂
+laughing: 😂
+funny: 😂
+hilarious: 🤣
+lol: 🤣
+joke: 😜
+crazy: 🤪
+awkward: 😬
+clown: 🤡
+smile: 😁
+wink: 😉
+hmm: 🤔
+
+# Feelings
+love: ❤️
+heart: ❤️
+heartbroken: 💔
+happy: 😊
+sad: 😢
+cry: 😭
+crying: 😭
+angry: 😠
+mad: 😡
+hate: 😤
+scared: 😱
+afraid: 😨
+nervous: 😰
+shocked: 😲
+surprised: 😮
+wow: 😮
+cool: 😎
+dead: 💀
+tired: 😫
+bored: 🥱
+confused: 😕
+embarrassed: 😳
+lonely: 😔
+excited: 🤩
+amazing: 🤩
+awesome: 🙌
+beautiful: 😍
+cute: 🥰
+kiss: 😘
+secret: 🤫
+liar: 🤥
+mindblowing: 🤯
+insane: 🤯
+
+# Money and business
+money: 💰
+cash: 💵
+dollars: 💵
+rich: 🤑
+millionaire: 🤑
+expensive: 💸
+bank: 🏦
+business: 💼
+office: 🏢
+boss: 👔
+deal: 🤝
+growth: 📈
+profit: 📈
+stocks: 📈
+loss: 📉
+crash: 📉
+crypto: 🪙
+bitcoin: 🪙
+startup: 🚀
+launch: 🚀
+rocket: 🚀
+goal: 🎯
+target: 🎯
+diamond: 💎
+
+# Winning and losing
+win: 🏆
+winner: 🏆
+champion: 🏆
+success: 🏆
+gold: 🥇
+medal: 🏅
+perfect: 💯
+facts: 💯
+fail: ❌
+failure: ❌
+wrong: ❌
+correct: ✅
+warning: ⚠️
+danger: ⚠️
+important: ❗
+question: ❓
+
+# Ideas and learning
+idea: 💡
+ideas: 💡
+genius: 🧠
+brain: 🧠
+smart: 🧠
+magic: ✨
+learn: 📚
+books: 📚
+book: 📖
+school: 🏫
+college: 🎓
+graduate: 🎓
+science: 🔬
+research: 🔍
+math: 🧮
+key: 🔑
+
+# Tech and media
+phone: 📱
+computer: 💻
+laptop: 💻
+code: 💻
+internet: 🌐
+email: 📧
+data: 📊
+robot: 🤖
+ai: 🤖
+battery: 🔋
+camera: 📷
+photo: 📸
+video: 🎥
+movie: 🎬
+film: 🎬
+podcast: 🎙️
+microphone: 🎤
+sing: 🎤
+music: 🎵
+song: 🎶
+guitar: 🎸
+game: 🎮
+gaming: 🎮
+
+# Party and celebration
+party: 🎉
+celebrate: 🎉
+birthday: 🎂
+gift: 🎁
+christmas: 🎄
+halloween: 🎃
+wedding: 💍
+married: 💍
+dance: 💃
+dancing: 💃
+beer: 🍺
+wine: 🍷
+cheers: 🥂
+drunk: 🥴
+clap: 👏
+applause: 👏
+
+# People and characters
+baby: 👶
+kids: 🧒
+family: 👪
+king: 👑
+queen: 👑
+ghost: 👻
+devil: 😈
+angel: 😇
+alien: 👽
+ninja: 🥷
+police: 🚓
+doctor: 🩺
+hospital: 🏥
+pray: 🙏
+thanks: 🙏
+eyes: 👀
+
+# Animals
+dog: 🐶
+dogs: 🐶
+cat: 🐱
+cats: 🐱
+horse: 🐴
+monkey: 🐒
+snake: 🐍
+shark: 🦈
+lion: 🦁
+bear: 🐻
+bird: 🐦
+chicken: 🐔
+fish: 🐟
+pig: 🐷
+cow: 🐮
+bee: 🐝
+spider: 🕷️
+unicorn: 🦄
+dinosaur: 🦖
+goat: 🐐
+
+# Food and drink
+food: 🍽️
+hungry: 🍽️
+delicious: 😋
+pizza: 🍕
+burger: 🍔
+fries: 🍟
+taco: 🌮
+sushi: 🍣
+bread: 🍞
+cheese: 🧀
+eggs: 🥚
+apple: 🍎
+banana: 🍌
+cake: 🍰
+cookie: 🍪
+chocolate: 🍫
+popcorn: 🍿
+spicy: 🌶️
+coffee: ☕
+tea: 🍵
+water: 💧
+
+# Travel and places
+travel: ✈️
+plane: ✈️
+flight: ✈️
+car: 🚗
+train: 🚆
+bus: 🚌
+bike: 🚲
+boat: ⛵
+house: 🏠
+city: 🏙️
+beach: 🏖️
+vacation: 🏝️
+mountain: ⛰️
+world: 🌍
+map: 🗺️
+
+# Weather and nature
+sun: ☀️
+sunny: ☀️
+rain: 🌧️
+storm: ⛈️
+snow: ❄️
+cold: 🥶
+hot: 🔥
+fire: 🔥
+lit: 🔥
+lightning: ⚡
+energy: ⚡
+speed: 💨
+moon: 🌙
+night: 🌙
+morning: 🌅
+star: ⭐
+rainbow: 🌈
+flower: 🌸
+flowers: 💐
+tree: 🌳
+ocean: 🌊
+volcano: 🌋
+clock: ⏰
+late: ⏰
+calendar: 📅
+
+# Sports and health
+gym: 🏋️
+workout: 💪
+strong: 💪
+muscle: 💪
+running: 🏃
+race: 🏁
+football: 🏈
+soccer: ⚽
+basketball: 🏀
+baseball: ⚾
+tennis: 🎾
+golf: ⛳
+boxing: 🥊
+fight: 🥊
+swim: 🏊
+sleep: 😴
+sleeping: 😴
+medicine: 💊
+virus: 🦠
+healthy: 🥗
+diet: 🥗
+sick: 🤒
+hurt: 🤕
+
+# Bangs and trash
+boom: 💥
+explode: 💥
+bomb: 💣
+trash: 🗑️
+garbage: 🗑️
+poop: 💩

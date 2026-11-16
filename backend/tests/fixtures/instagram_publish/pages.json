@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "id": "104739358734013",
+      "name": "Clip Lab Shorts",
+      "instagram_business_account": {
+        "id": "17841400008460057",
+        "username": "cliplab.shorts",
+        "name": "Clip Lab Shorts"
+      }
+    },
+    {
+      "id": "104739358734012",
+      "name": "Clip Lab",
+      "instagram_business_account": {
+        "id": "17841400008460056",
+        "username": "cliplab",
+        "name": "Clip Lab"
+      }
+    },
+    {
+      "id": "104739358734014",
+      "name": "Clip Lab Blog"
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "QVFIUk1",
+      "after": "QVFIUkx"
+    }
+  }
+}

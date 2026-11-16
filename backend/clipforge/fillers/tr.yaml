@@ -1,0 +1,3 @@
+# Turkish. "şey", "yani" and "işte" only between pauses.
+always: ["ıı", "ee", "ımm", "hmm"]
+alone: ["şey", "yani", "işte"]

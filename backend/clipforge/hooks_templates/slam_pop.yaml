@@ -1,0 +1,24 @@
+# Big white uppercase words that pop in over a fast punch-in and a swift whoosh.
+label: Slam Pop
+description: Big outlined words pop in as the frame punches in fast.
+duration: 2.5
+uppercase: true
+max_chars_per_line: 14
+layers:
+  - text: "{text}"
+    font: Anton
+    size: 0.07
+    color: "#FFFFFF"
+    stroke: "#000000"
+    stroke_width: 0.09
+    y: 0.3
+    animation_in: pop
+    animation_out: fade
+    in_seconds: 0.3
+    out_seconds: 0.3
+punch:
+  scale: 1.18
+  attack: 0.2
+  release: 0.4
+sound: whoosh_swift.flac
+sound_volume: 0.8

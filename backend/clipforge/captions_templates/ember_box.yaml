@@ -1,0 +1,16 @@
+# Uppercase words on an orange box (outline is its padding); the spoken word pops in cream.
+font: Montserrat ExtraBold
+size: 50
+primary_color: "#FFFFFF"
+highlight_color: "#FFE8A3"
+emphasis_color: "#2B2D42"
+outline: 8.8
+outline_color: "#E4572E"
+shadow: 0
+box: true
+uppercase: true
+position: lower_third
+max_words_per_line: 3
+max_lines: 1
+animation: pop
+emoji: false

@@ -1,0 +1,11 @@
+{
+  "rationale": "Phonk Edit at pro with glitches, a big punch and an air horn.",
+  "items": [
+    {"kind": "caption_style", "t_start": 0, "t_end": 18, "params": {"style": "neon"}, "reason": "neon captions"},
+    {"kind": "glitch", "t_start": 2.0, "t_end": 2.3, "params": {}, "reason": "a glitch on 'those'"},
+    {"kind": "zoom_punch", "t_start": 2.74, "t_end": 3.2, "params": {"scale": 2.0}, "reason": "a huge punch on 'fridges'"},
+    {"kind": "zoom_punch", "t_start": 3.0, "t_end": 3.5, "params": {"scale": 1.2}, "reason": "another punch"},
+    {"kind": "sfx", "t_start": 10.2, "t_end": 10.8, "params": {"asset": "air_horn"}, "reason": "an air horn"},
+    {"kind": "shake", "t_start": 17.5, "t_end": 19.0, "params": {}, "reason": "a jolt at the end"}
+  ]
+}

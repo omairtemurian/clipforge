@@ -1,0 +1,16 @@
+# Chunky cartoon capitals in white; the spoken word is hot pink.
+font: Luckiest Guy
+size: 58
+primary_color: "#FFFFFF"
+highlight_color: "#FF4FA3"
+emphasis_color: "#FFE600"
+outline: 5
+outline_color: "#1B1B1B"
+shadow: 2
+box: false
+uppercase: true
+position: lower_third
+max_words_per_line: 3
+max_lines: 1
+animation: pop
+emoji: true

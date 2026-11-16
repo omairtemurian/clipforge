@@ -1,0 +1,128 @@
+whisper_model: small
+clip_min_s: 20
+clip_max_s: 75
+default_num_clips: 10
+max_clips_from_llm: 30
+chunk_minutes: 10
+chunk_overlap_s: 60
+laugh_merge_gap_s: 0.75
+laugh_min_duration_s: 0.4
+score_weights:
+  llm: 0.6
+  laugh: 0.25
+  energy: 0.15
+# Share of the whole run per job step (overall progress and ETA on the cards).
+step_weights:
+  ingest: 10
+  transcribe: 25
+  signals: 5
+  visuals: 3
+  enrich: 1
+  curate: 10
+  score: 1
+  snap: 1
+  reframe: 10
+  render: 34
+  # Pro Edit jobs: plan -> proxy -> critic rounds -> final render.
+  plan: 10
+  proxy: 15
+  critic: 30
+  final: 45
+target_lufs: -14
+render:
+  fps: 30
+  crf: 20
+  preset: medium
+  audio_bitrate: 160k
+# Auto zoom-out moments (balanced intensity; the factors scale them for the
+# others): max share of a clip zoomed out, shortest segment (s), zoom
+# transition (s), largest face under this share of the frame height = wide
+# shot, subject lost longer than lost_s (s), share of moving columns = wide
+# action, hysteresis enter/exit shares over window_s (s).
+zoom_out:
+  max_share: 0.4
+  min_segment_s: 2.5
+  transition_s: 0.3
+  wide_face_height: 0.12
+  lost_s: 1.0
+  motion_spread: 0.5
+  enter: 0.7
+  exit: 0.3
+  window_s: 1.0
+  intensity_factors: {subtle: 0.5, balanced: 1.0, frequent: 1.5}
+llm_provider: copilot
+openai_base_url: https://api.openai.com/v1
+llm_model: claude-sonnet-5.5
+# The GitHub CLI account whose token Copilot uses when GITHUB_COPILOT_TOKEN
+# is empty (`gh auth token -u <account>`); empty: gh's active account.
+copilot_account: ""
+# LLM_PROVIDER=anthropic (Anthropic API key in ANTHROPIC_API_KEY).
+anthropic_base_url: https://api.anthropic.com
+anthropic_model: claude-sonnet-5-5
+# LLM_PROVIDER=claude_code (Claude subscription, logged in with `claude`).
+claude_code_bin: claude
+claude_code_model: sonnet
+ollama_host: http://localhost:11434
+# Ollama vision model that captions video frames (clip anything). Empty: the
+# first pulled model with the vision capability. A frame is captioned at
+# every scene cut and every frame_caption_interval_s seconds.
+vlm_model: ""
+frame_caption_interval_s: 10
+data_dir: data
+models_dir: models
+credit_template: "Credit: {channel}"
+# Empty: use ffmpeg-full (libass) from Homebrew if installed, else PATH.
+ffmpeg_bin: ""
+ffprobe_bin: ""
+# H.264 encoder of renders: libx264 (software) or h264_videotoolbox (Apple
+# hardware, faster). Empty: h264_videotoolbox if ffmpeg has it, else libx264.
+video_encoder: ""
+# yt-dlp cookies for videos that need a signed-in YouTube session: a browser
+# you are logged into ("chrome", "safari", "firefox", or "chrome:Profile 1")
+# and/or the path of a Netscape cookies.txt. Empty: no cookies.
+ytdlp_cookies_from_browser: ""
+ytdlp_cookies_file: ""
+# Job worker pool: worker threads, the most running jobs per job kind, and
+# the GPU-heavy kinds, of which only one job runs at a time.
+workers: 2
+job_concurrency:
+  process: 1
+  render: 2
+  reprompt: 1
+  proedit: 1
+gpu_job_kinds: [process, reprompt]
+# A job that was running when the app stopped resumes after its last finished
+# step on the next start; after this many starts it fails instead.
+job_max_attempts: 3
+# Posting worker: seconds between looks for due posts; retries of a passing
+# upload failure (first after post_retry_base_s, doubling up to
+# post_retry_max_s; the post fails at its post_max_attempts-th failure);
+# rate limits: one upload start per account per post_account_gap_s, and
+# per platform per hour over all accounts (e.g. {tiktok: 10}; none: no cap).
+post_poll_s: 30
+post_max_attempts: 5
+post_retry_base_s: 60
+post_retry_max_s: 3600
+post_account_gap_s: 60
+post_platform_hourly: {}
+# Posts that came due while the app was off (their time passed more than
+# post_missed_grace_s before the start, never tried): post_late publishes
+# them on start, skip marks them skipped (schedule them again to post).
+post_missed_policy: post_late
+post_missed_grace_s: 600
+# Public REST API /api/v1: requests per minute per API key (more: 429).
+api_rate_limit_per_min: 120
+# Pro Edit (opt-in heavy edits as a separate variant clip). false: the app
+# shows no Pro Edit entry and its endpoints answer 404 proedit_disabled.
+# monthly_cap_usd (unset: no cap) blocks new Director and critic LLM calls
+# once the month's Pro Edit spend reaches it; the spend is the reported tokens
+# times usd_per_million_tokens (your model's price), which a cap needs. The critic
+# (a vision model only; others run the Director only) passes an edit when
+# every checklist score reaches critic_threshold (0-10) and looks at no more
+# than critic_max_frames frames of the proxy render (1-60). It revises the
+# edit for at most critic_max_rounds rounds (0-3; 0 turns the critic off).
+proedit:
+  enabled: true
+  critic_threshold: 7
+  critic_max_frames: 24
+  critic_max_rounds: 2

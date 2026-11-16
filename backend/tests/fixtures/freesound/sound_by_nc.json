@@ -1,0 +1,17 @@
+{
+  "id": 411089,
+  "name": "Wind Whoosh NC",
+  "tags": [
+    "whoosh"
+  ],
+  "username": "somebody",
+  "license": "Attribution NonCommercial",
+  "duration": 2.0,
+  "url": "https://freesound.org/people/somebody/sounds/411089/",
+  "previews": {
+    "preview-hq-mp3": "https://cdn.freesound.org/previews/411/411089_12-hq.mp3",
+    "preview-lq-mp3": "https://cdn.freesound.org/previews/411/411089_12-lq.mp3",
+    "preview-hq-ogg": "https://cdn.freesound.org/previews/411/411089_12-hq.ogg",
+    "preview-lq-ogg": "https://cdn.freesound.org/previews/411/411089_12-lq.ogg"
+  }
+}

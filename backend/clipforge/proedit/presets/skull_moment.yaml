@@ -1,0 +1,45 @@
+# Skull Moment: at the "caught" moment after a punchline the picture freezes,
+# turns black and white, shakes and punches in on the face, a skull pops on
+# it, a boom and a bass drop hit, it holds 1-2 s and snaps back to color
+# with a whoosh. The rest of the clip stays in color.
+name: Skull Moment
+description: Freeze, black and white, shake and punch-in, skull overlay and boom on the caught moment.
+kinds:
+  [freeze_frame, grade_change, overlay, zoom_punch, zoom_push, shake, transition,
+   vignette, caption_style, sfx, music_bed, silence_before_drop, audio_fx]
+music:
+  moods: [dramatic, dark, electronic]
+  bpm: [80, 140]
+  gain_db: -18
+caption_style: {style: bounce, shake_on_loud: true}
+vignette: {strength: 0.3}
+overlays: [skull, skeleton]
+params:
+  zoom_punch: {scale: 1.25, ease_frames: 0}
+  shake: {strength: 0.6, frequency_hz: 14}
+  transition: {type: whip}
+  sfx: {asset: whoosh_soft, gain_db: -10}
+snap:
+  zoom_punch: frame
+  shake: frame
+skull:
+  hold_s: 1.5
+  look: bw
+  overlay: skull
+  max_moments: 1
+rules:
+  - signal: punchline
+    moves: [skull_moment]
+  - signal: hook
+    moves: [zoom_punch]
+  - signal: punchline
+    moves: [zoom_punch, bass_drop]
+  - signal: scene_cut
+    moves: [transition]
+  - signal: emphasis
+    moves: [zoom_punch]
+    from_intensity: standard
+  - signal: setup
+    moves: [zoom_push]
+    from_intensity: standard
+interrupts: [zoom_punch, zoom_push, sfx]

@@ -1,0 +1,16 @@
+# One large uppercase word at a time, popping in gold as it is spoken.
+font: Montserrat ExtraBold
+size: 66
+primary_color: "#FFFFFF"
+highlight_color: "#FFE14D"
+emphasis_color: "#FF5E5B"
+outline: 4
+outline_color: "#000000"
+shadow: 2.2
+box: false
+uppercase: true
+position: lower_third
+max_words_per_line: 1
+max_lines: 1
+animation: pop
+emoji: false

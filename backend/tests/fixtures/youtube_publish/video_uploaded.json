@@ -1,0 +1,24 @@
+{
+  "kind": "youtube#video",
+  "etag": "Pq9rS8tU7vW6xY5zA4bC3dE2fG1",
+  "id": "dQ8wX4yZ1aB",
+  "snippet": {
+    "publishedAt": "2026-11-01T07:30:12Z",
+    "channelId": "UCa1B2c3D4e5F6g7H8i9J0kL",
+    "title": "The one habit that changed everything",
+    "description": "From the full talk.",
+    "tags": ["habits", "productivity"],
+    "categoryId": "27",
+    "liveBroadcastContent": "none"
+  },
+  "status": {
+    "uploadStatus": "uploaded",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false,
+    "madeForKids": false,
+    "containsSyntheticMedia": true
+  }
+}

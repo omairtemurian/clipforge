@@ -1,0 +1,46 @@
+# Clean Pro: a light correction grade, subtle punch-ins on the key words,
+# whooshes on transitions only, clean kinetic captions, an optional music
+# bed and no heavy effects.
+name: Clean Pro
+description: Light correction grade, subtle punch-ins on key words, clean pop captions.
+kinds:
+  [zoom_punch, zoom_push, zoom_out_reveal, transition, grade_change, caption_style,
+   text_pop, sfx, music_bed]
+budgets:
+  pro:
+    effects: {count: 3, window_s: 5}
+  extreme:
+    effects: {count: 4, window_s: 5}
+    kinds:
+      zoom_punch: {count: 1, window_s: 1.5}
+music:
+  moods: [upbeat, happy, chill, pop]
+  bpm: [90, 125]
+  gain_db: -22
+caption_style: {style: pop}
+grade: {look: lut, lut: clean_pop, amount: 0.5}
+params:
+  zoom_punch: {scale: 1.1, ease_frames: 3}
+  zoom_push: {scale_from: 1.0, scale_to: 1.06}
+  zoom_out_reveal: {scale_from: 1.1, scale_to: 1.0}
+  transition: {type: crossfade}
+whooshes: [transition]
+rules:
+  - signal: hook
+    moves: [zoom_punch]
+  - signal: scene_cut
+    moves: [transition]
+  - signal: punchline
+    moves: [zoom_punch]
+  - signal: emphasis
+    moves: [zoom_punch]
+  - signal: setup
+    moves: [zoom_push]
+    from_intensity: standard
+  - signal: payoff
+    moves: [zoom_out_reveal]
+    from_intensity: standard
+  - signal: punchline
+    moves: [text_pop]
+    from_intensity: pro
+interrupts: [zoom_punch, zoom_push]

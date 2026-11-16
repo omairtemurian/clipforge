@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "permission": "instagram_basic",
+      "status": "granted"
+    },
+    {
+      "permission": "instagram_content_publish",
+      "status": "declined"
+    },
+    {
+      "permission": "pages_show_list",
+      "status": "granted"
+    },
+    {
+      "permission": "pages_read_engagement",
+      "status": "granted"
+    }
+  ]
+}

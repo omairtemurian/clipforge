@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCBR8-60-B28hp2BmDPdntcQ"/>
+ <id>yt:channel:BR8-60-B28hp2BmDPdntcQ</id>
+ <yt:channelId>BR8-60-B28hp2BmDPdntcQ</yt:channelId>
+ <title>YouTube</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ"/>
+ <author>
+  <name>YouTube</name>
+  <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+ </author>
+</feed>

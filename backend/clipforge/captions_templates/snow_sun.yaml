@@ -1,0 +1,16 @@
+# Uppercase white words; the spoken word turns sunny yellow.
+font: Archivo Black
+size: 56
+primary_color: "#FFFFFF"
+highlight_color: "#FFD60A"
+emphasis_color: "#FF4D6D"
+outline: 4
+outline_color: "#000000"
+shadow: 1.5
+box: false
+uppercase: true
+position: lower_third
+max_words_per_line: 3
+max_lines: 1
+animation: none
+emoji: false

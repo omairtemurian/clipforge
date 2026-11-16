@@ -1,0 +1,13 @@
+# Uppercase words on an opaque box (outline is the box padding); spoken word orange.
+font: Montserrat ExtraBold
+size: 50
+primary_color: "#FFFFFF"
+highlight_color: "#FF6B35"
+emphasis_color: "#FFD23F"
+outline: 8.8
+shadow: 0
+box: true
+uppercase: true
+position: lower_third
+max_words_per_line: 3
+emoji: false

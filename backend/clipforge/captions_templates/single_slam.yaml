@@ -1,0 +1,16 @@
+# One tall uppercase word at a time that slams in, in white then lime.
+font: Anton
+size: 110
+primary_color: "#FFFFFF"
+highlight_color: "#C6FF00"
+emphasis_color: "#FF3D7F"
+outline: 4
+outline_color: "#000000"
+shadow: 2
+box: false
+uppercase: true
+position: lower_third
+max_words_per_line: 1
+max_lines: 1
+animation: pop
+emoji: false

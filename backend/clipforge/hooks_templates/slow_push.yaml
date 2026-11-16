@@ -1,0 +1,23 @@
+# Calm sentence-case text on a soft dark box while the frame slowly pushes in.
+label: Slow Push
+description: Quiet text fades in on a dark box as the frame slowly pushes in.
+duration: 3.0
+max_chars_per_line: 20
+layers:
+  - text: "{text}"
+    font: Inter Bold
+    size: 0.04
+    color: "#FFFFFF"
+    box: "#000000"
+    box_opacity: 0.6
+    y: 0.72
+    animation_in: fade
+    animation_out: fade
+    in_seconds: 0.5
+    out_seconds: 0.5
+punch:
+  scale: 1.08
+  attack: 1.8
+  release: 0.6
+sound: whoosh_soft.flac
+sound_volume: 0.6

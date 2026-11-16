@@ -1,0 +1,16 @@
+# Two clean lines in white; the spoken word is underlined and turns sky blue.
+font: Inter Bold
+size: 54
+primary_color: "#FFFFFF"
+highlight_color: "#38BDF8"
+emphasis_color: "#FACC15"
+outline: 3
+outline_color: "#000000"
+shadow: 0
+box: false
+uppercase: false
+position: lower_third
+max_words_per_line: 3
+max_lines: 2
+animation: underline
+emoji: false

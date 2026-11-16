@@ -1,0 +1,13 @@
+# Loud yellow uppercase words with a heavy outline and drop shadow, with emoji.
+font: Montserrat ExtraBold
+size: 62
+primary_color: "#FFE14D"
+highlight_color: "#FFFFFF"
+emphasis_color: "#FF3B30"
+outline: 5
+shadow: 3.7
+box: false
+uppercase: true
+position: lower_third
+max_words_per_line: 3
+emoji: true

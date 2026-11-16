@@ -1,0 +1,16 @@
+{
+  "kind": "youtube#video",
+  "etag": "Zy1xW2vU3tS4rQ5pO6nM7lK8jI9",
+  "id": "rJ7kL2mN9pQ",
+  "snippet": {
+    "publishedAt": "2026-11-01T07:30:12Z",
+    "channelId": "UCa1B2c3D4e5F6g7H8i9J0kL",
+    "title": "The one habit that changed everything",
+    "categoryId": "22"
+  },
+  "status": {
+    "uploadStatus": "rejected",
+    "rejectionReason": "duplicate",
+    "privacyStatus": "public"
+  }
+}

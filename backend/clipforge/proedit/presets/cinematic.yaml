@@ -1,0 +1,45 @@
+# Cinematic: filmic teal and orange curves (the bundled original LUT), slow
+# push-ins, slow motion on the key moment, soft whooshes, an ambient riser
+# and minimal captions.
+name: Cinematic
+description: Teal and orange film look, slow push-ins, slow motion on the key moment, minimal captions.
+kinds:
+  [zoom_push, zoom_out_reveal, slowmo, transition, grade_change, vignette,
+   caption_style, sfx, music_bed, silence_before_drop, audio_fx]
+budgets:
+  pro:
+    effects: {count: 3, window_s: 5}
+  extreme:
+    effects: {count: 4, window_s: 5}
+music:
+  moods: [ambient, calm, dramatic, soft]
+  bpm: [60, 100]
+  gain_db: -20
+caption_style: {style: pop, emphasis_scale: 1.0}
+grade: {look: lut, lut: teal_orange, amount: 0.8}
+vignette: {strength: 0.3}
+params:
+  zoom_push: {scale_from: 1.0, scale_to: 1.1}
+  zoom_out_reveal: {scale_from: 1.1, scale_to: 1.0}
+  slowmo: {speed: 0.5, ramp_s: 0.2}
+  transition: {type: crossfade}
+  sfx: {asset: whoosh_soft, gain_db: -10}
+lengths:
+  slowmo: 1.2
+whooshes: [transition, zoom]
+rules:
+  - signal: hook
+    moves: [zoom_push]
+  - signal: punchline
+    moves: [slowmo]
+  - signal: setup
+    moves: [zoom_push]
+  - signal: scene_cut
+    moves: [transition]
+  - signal: punchline
+    moves: [bass_drop]
+    from_intensity: pro
+  - signal: payoff
+    moves: [zoom_out_reveal]
+    from_intensity: standard
+interrupts: [zoom_push, sfx]

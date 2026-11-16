@@ -1,0 +1,33 @@
+# Rounded words with a coral copy just behind them, popping in together.
+label: Echo Stack
+description: Rounded words with a coral echo pop in over a punch-in.
+duration: 2.5
+max_chars_per_line: 14
+layers:
+  - text: "{text}"
+    font: Lilita One
+    size: 0.06
+    color: "#FF2E63"
+    x: 0.508
+    y: 0.305
+    animation_in: pop
+    animation_out: fade
+    in_seconds: 0.35
+    out_seconds: 0.3
+  - text: "{text}"
+    font: Lilita One
+    size: 0.06
+    color: "#FFFFFF"
+    stroke: "#1B1B1B"
+    stroke_width: 0.05
+    y: 0.3
+    animation_in: pop
+    animation_out: fade
+    in_seconds: 0.3
+    out_seconds: 0.3
+punch:
+  scale: 1.15
+  attack: 0.25
+  release: 0.4
+sound: whoosh_swift.flac
+sound_volume: 0.8

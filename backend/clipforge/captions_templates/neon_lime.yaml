@@ -1,0 +1,16 @@
+# Neon green capitals on a deep green outline; the spoken word flashes white.
+font: Bebas Neue
+size: 76
+primary_color: "#39FF14"
+highlight_color: "#FFFFFF"
+emphasis_color: "#F7FF00"
+outline: 4
+outline_color: "#0A3D0A"
+shadow: 0
+box: false
+uppercase: true
+position: lower_third
+max_words_per_line: 4
+max_lines: 1
+animation: none
+emoji: false

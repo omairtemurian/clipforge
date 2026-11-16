@@ -1,0 +1,74 @@
+{
+  "clips": [
+    {
+      "start": 1.5,
+      "end": 32.9,
+      "title": "Yoga Class and a Smart Fridge That Reports Me",
+      "hook_text": "Listen to your body, they said",
+      "description": "A first yoga class and a smart fridge that tracks every snack. This cut starts after the greeting and stops on the cheese line, before the laugh.",
+      "hashtags": ["standup", "yoga", "smartfridge"],
+      "emphasis_words": ["yoga", "floor", "cheese"],
+      "reason": "Same two bits as the longer cut, but it starts mid-introduction and ends on the punchline before the audience laughs.",
+      "hook": 72,
+      "flow": 60,
+      "value": 66,
+      "trend": 58
+    },
+    {
+      "start": 0.5,
+      "end": 35.2,
+      "title": "My Body Had One Question in Yoga Class",
+      "hook_text": "My body had one question for my yoga teacher",
+      "description": "He finally tries yoga and actually listens to his body, then buys a smart fridge that sends his phone a report every night.",
+      "hashtags": ["standupcomedy", "yoga", "smartfridge", "comedy"],
+      "emphasis_words": ["yoga", "floor", "fridges", "cheese"],
+      "reason": "Two connected bits, each with a clear setup and a punchline that gets a big laugh; it ends right after the second laugh.",
+      "hook": 88,
+      "flow": 84,
+      "value": 80,
+      "trend": 76
+    },
+    {
+      "start": 16.9,
+      "end": 54.9,
+      "title": "My Smart Fridge and My Car Both Judge Me",
+      "hook_text": "My fridge wants to talk about the cheese",
+      "description": "A smart fridge reports his snacking every night, and his car's voice assistant has opinions about the drive home.",
+      "hashtags": ["comedy", "smarthome", "technology", "standup"],
+      "emphasis_words": ["cheese", "recalculating", "choices"],
+      "reason": "Two gadget bits with the same structure and two strong laughs; the second punchline tops the first.",
+      "hook": 78,
+      "flow": 74,
+      "value": 72,
+      "trend": 70
+    },
+    {
+      "start": 35.8,
+      "end": 59.5,
+      "title": "Car Assistant Recalculates His Life Choices",
+      "hook_text": "I asked my car to take me home",
+      "description": "His car's voice assistant thinks for a long time before giving a brutally honest answer about the way home. Ends with the sign-off.",
+      "hashtags": ["standupcomedy", "cars", "voiceassistant"],
+      "emphasis_words": ["home", "recalculating"],
+      "reason": "A single bit with a clean setup, a long pause and a big laugh, followed by a warm sign-off.",
+      "hook": 70,
+      "flow": 72,
+      "value": 66,
+      "trend": 64
+    },
+    {
+      "start": 0.5,
+      "end": 16.3,
+      "title": "Why Are We on the Floor?",
+      "hook_text": "I finally tried yoga",
+      "description": "The yoga teacher says to listen to your body, so he does, and his body has one simple question.",
+      "hashtags": ["standup", "yoga", "fitness"],
+      "emphasis_words": ["yoga", "floor"],
+      "reason": "The tightest version of the yoga joke: one setup, one punchline and the full laugh.",
+      "hook": 84,
+      "flow": 80,
+      "value": 70,
+      "trend": 66
+    }
+  ]
+}

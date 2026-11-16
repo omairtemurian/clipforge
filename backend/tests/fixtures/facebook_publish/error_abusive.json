@@ -1,0 +1,10 @@
+{
+  "error": {
+    "message": "(#368) The action attempted has been deemed abusive or is otherwise disallowed",
+    "type": "FacebookApiException",
+    "code": 368,
+    "is_transient": false,
+    "error_user_msg": "You are temporarily blocked from posting.",
+    "fbtrace_id": "AbCdEfGhIjKlMnOp"
+  }
+}

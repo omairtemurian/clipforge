@@ -1,0 +1,21 @@
+{
+  "data": {
+    "creator_avatar_url": "https://lf16-tt4d.tiktokcdn.com/obj/tiktok-open-platform/clip-lab",
+    "creator_username": "cliplab",
+    "creator_nickname": "Clip Lab",
+    "privacy_level_options": [
+      "FOLLOWER_OF_CREATOR",
+      "MUTUAL_FOLLOW_FRIENDS",
+      "SELF_ONLY"
+    ],
+    "comment_disabled": true,
+    "duet_disabled": true,
+    "stitch_disabled": true,
+    "max_video_post_duration_sec": 2
+  },
+  "error": {
+    "code": "ok",
+    "message": "",
+    "log_id": "20261101073000C5A1B2C3D4E5F6A7B8C9"
+  }
+}

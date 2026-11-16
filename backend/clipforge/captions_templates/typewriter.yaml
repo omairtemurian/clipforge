@@ -1,0 +1,16 @@
+# Words appear as they are spoken, in white capitals; the spoken word is gold.
+font: Staatliches
+size: 68
+primary_color: "#FFFFFF"
+highlight_color: "#FFC857"
+emphasis_color: "#FF6B6B"
+outline: 3.5
+outline_color: "#000000"
+shadow: 0
+box: false
+uppercase: true
+position: lower_third
+max_words_per_line: 4
+max_lines: 1
+animation: reveal
+emoji: false

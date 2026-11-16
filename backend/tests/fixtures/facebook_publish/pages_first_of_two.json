@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "access_token": "EAAcliplab-page-shorts",
+      "category": "Internet Company",
+      "name": "Clip Lab Shorts",
+      "id": "104739358734013",
+      "tasks": ["CREATE_CONTENT"]
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "QVFIUk1",
+      "after": "QVFIUkxNEXT"
+    },
+    "next": "https://graph.facebook.com/v26.0/me/accounts?after=QVFIUkxNEXT"
+  }
+}

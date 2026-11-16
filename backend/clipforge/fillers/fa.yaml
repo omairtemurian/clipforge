@@ -1,0 +1,4 @@
+# Persian. "خب" (well), "یعنی" (I mean) and "مثلاً"/"مثلا" (like) only
+# between pauses.
+always: ["اِم", "اِ", "اممم", "ممم", "ااا"]
+alone: ["خب", "یعنی", "مثلاً", "مثلا"]

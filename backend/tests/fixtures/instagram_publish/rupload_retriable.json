@@ -1,0 +1,7 @@
+{
+  "debug_info": {
+    "retriable": true,
+    "type": "ProcessingFailedError",
+    "message": "Partial upload, retry"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "_comment": "Hand-written LLM replies of the post copy prompt (the shape a model sends for the user messages of post_copy.user_prompt), one per option of Rewrite with AI. No network is used.",
+  "first": {
+    "title": "Why yoga asked me one question",
+    "description": "A comedian tries yoga and the teacher asks one question that nobody can answer.",
+    "hashtags": ["#yoga", "standup", "comedy", "Funny Moments", "yoga"]
+  },
+  "casual": {
+    "title": "So I tried yoga, and wow",
+    "description": "Honestly, the teacher asked me one thing and I had no idea what to say. Watch till the end!"
+  },
+  "punchy": {
+    "title": "Yoga. One question. Zero answers.",
+    "description": "One question. No answer. Pure silence. Then the laugh."
+  },
+  "professional": {
+    "title": "A comedian's first yoga class",
+    "description": "In this clip a comedian describes the first yoga class he attended and the question that ended it."
+  },
+  "funny": {
+    "title": "My body asked a question. I left.",
+    "description": "Turns out yoga is mostly listening to your body, and mine just said no."
+  },
+  "short": {
+    "title": "Yoga told me to listen",
+    "description": "He tried yoga. The teacher asked one question."
+  },
+  "list": {
+    "title": "Three things about yoga",
+    "description": "What happens in this clip:\n- He tries yoga\n- The teacher asks one question\n- He has no answer"
+  },
+  "story": {
+    "title": "The day I tried yoga",
+    "description": "He walks into a yoga class. The teacher asks him one question. He stands there with no answer. The room laughs."
+  },
+  "more": {
+    "hashtags": ["yoga", "standup", "comedy", "funny", "laugh", "teacher", "class", "wellness"]
+  },
+  "fewer": {
+    "hashtags": ["yoga"]
+  },
+  "overlong": {
+    "title": "A very long title that goes on and on about yoga and the teacher and the question that nobody could answer in the whole class today",
+    "description": "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word",
+    "hashtags": ["yoga", "standup", "comedy"]
+  }
+}

@@ -1,0 +1,18 @@
+# Neon: white capitals; the spoken word glows magenta and pops.
+motion: pop
+glow: true
+caption:
+  font: Montserrat ExtraBold
+  size: 72
+  primary_color: "#FFFFFF"
+  highlight_color: "#FF2BD6"
+  emphasis_color: "#00E5FF"
+  outline: 2
+  outline_color: "#000000"
+  shadow: 0
+  box: false
+  uppercase: true
+  position: lower_third
+  max_words_per_line: 2
+  max_lines: 1
+  emoji: false

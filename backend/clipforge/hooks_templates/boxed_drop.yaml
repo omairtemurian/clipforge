@@ -1,0 +1,22 @@
+# Dark words on a sunny yellow box that drops in from above.
+label: Boxed Drop
+description: A yellow label drops in from above with a short zoom.
+duration: 2.5
+max_chars_per_line: 16
+layers:
+  - text: "{text}"
+    font: Montserrat ExtraBold
+    size: 0.042
+    color: "#111111"
+    box: "#FFD60A"
+    y: 0.22
+    animation_in: slide_down
+    animation_out: fade
+    in_seconds: 0.35
+    out_seconds: 0.3
+punch:
+  scale: 1.1
+  attack: 0.35
+  release: 0.4
+sound: whoosh_swift.flac
+sound_volume: 0.7

@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "access_token": "EAAcliplab-page-shorts",
+      "category": "Internet Company",
+      "name": "Clip Lab Shorts",
+      "id": "104739358734013",
+      "tasks": ["ANALYZE", "ADVERTISE", "MODERATE", "CREATE_CONTENT"]
+    },
+    {
+      "access_token": "EAAcliplab-page-0012",
+      "category": "Internet Company",
+      "name": "Clip Lab",
+      "id": "104739358734012",
+      "tasks": ["ANALYZE", "ADVERTISE", "MODERATE", "CREATE_CONTENT", "MANAGE"]
+    },
+    {
+      "access_token": "EAAcliplab-page-stats",
+      "category": "Blogger",
+      "name": "Clip Lab Stats",
+      "id": "104739358734014",
+      "tasks": ["ANALYZE"]
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "QVFIUk1",
+      "after": "QVFIUkx"
+    }
+  }
+}

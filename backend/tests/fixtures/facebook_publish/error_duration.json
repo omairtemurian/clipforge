@@ -1,0 +1,12 @@
+{
+  "error": {
+    "message": "Invalid parameter",
+    "type": "OAuthException",
+    "code": 100,
+    "error_subcode": 1363128,
+    "is_transient": false,
+    "error_user_title": "Unsupported video duration",
+    "error_user_msg": "Reels must be between 3 and 90 seconds long.",
+    "fbtrace_id": "AbCdEfGhIjKlMnOp"
+  }
+}

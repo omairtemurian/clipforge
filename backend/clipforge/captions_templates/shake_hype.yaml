@@ -1,0 +1,16 @@
+# Comic capitals; emphasis words shake when they are spoken.
+font: Bangers
+size: 70
+primary_color: "#FFFFFF"
+highlight_color: "#FF3B30"
+emphasis_color: "#FFE600"
+outline: 4.5
+outline_color: "#000000"
+shadow: 2
+box: false
+uppercase: true
+position: lower_third
+max_words_per_line: 3
+max_lines: 1
+animation: shake
+emoji: true

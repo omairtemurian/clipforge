@@ -1,0 +1,13 @@
+{
+  "name": "clipforge-e2e",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "End-to-end tests (Playwright); the app itself is in backend/ and frontend/",
+  "scripts": {
+    "e2e": "playwright test -c e2e"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1"
+  }
+}

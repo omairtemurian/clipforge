@@ -1,0 +1,16 @@
+# Uppercase words with a deep navy stroke; the spoken word springs in aqua.
+font: Montserrat ExtraBold
+size: 60
+primary_color: "#FFFFFF"
+highlight_color: "#00F5D4"
+emphasis_color: "#FEE440"
+outline: 3.7
+outline_color: "#0B3C5D"
+shadow: 0
+box: false
+uppercase: true
+position: lower_third
+max_words_per_line: 3
+max_lines: 1
+animation: bounce
+emoji: true

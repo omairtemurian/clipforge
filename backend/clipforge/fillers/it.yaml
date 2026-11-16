@@ -1,0 +1,3 @@
+# Italian. "eh", "cioè" and "tipo" only between pauses.
+always: ["ehm", "ehh", "uhm", "mmm"]
+alone: ["eh", "cioè", "tipo"]

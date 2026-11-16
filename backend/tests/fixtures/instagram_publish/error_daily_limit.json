@@ -1,0 +1,12 @@
+{
+  "error": {
+    "message": "The account has reached its daily limit of posts.",
+    "type": "OAuthException",
+    "code": 9,
+    "error_subcode": 2207042,
+    "is_transient": false,
+    "error_user_title": "Daily limit reached",
+    "error_user_msg": "You have reached the maximum number of posts allowed for today.",
+    "fbtrace_id": "AbCdEfGhIjKlMnOp"
+  }
+}

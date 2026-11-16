@@ -1,0 +1,15 @@
+{
+  "data": {
+    "user": {
+      "open_id": "723f24d7-e717-40f8-a2b6-cb8464cd23b4",
+      "union_id": "c9c60f44-a68e-4f5d-84dd-ce22faeb0ba1",
+      "avatar_url": "https://p16-sign.tiktokcdn-us.com/tos-avt/clip-lab~c5_168x168.jpeg",
+      "display_name": "Clip Lab"
+    }
+  },
+  "error": {
+    "code": "ok",
+    "message": "",
+    "log_id": "20261101073000C5A1B2C3D4E5F6A7B8C9"
+  }
+}

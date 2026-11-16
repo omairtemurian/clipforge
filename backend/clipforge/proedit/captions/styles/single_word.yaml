@@ -1,0 +1,18 @@
+# Single word: one tall word at a time, popping in.
+motion: pop
+glow: false
+caption:
+  font: Anton
+  size: 120
+  primary_color: "#FFFFFF"
+  highlight_color: "#C6FF00"
+  emphasis_color: "#FF3D7F"
+  outline: 4
+  outline_color: "#000000"
+  shadow: 2
+  box: false
+  uppercase: true
+  position: middle
+  max_words_per_line: 1
+  max_lines: 1
+  emoji: false

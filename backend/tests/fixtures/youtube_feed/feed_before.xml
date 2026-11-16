@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCBR8-60-B28hp2BmDPdntcQ"/>
+ <id>yt:channel:BR8-60-B28hp2BmDPdntcQ</id>
+ <yt:channelId>BR8-60-B28hp2BmDPdntcQ</yt:channelId>
+ <title>YouTube</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ"/>
+ <author>
+  <name>YouTube</name>
+  <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+ </author>
+ <entry>
+  <id>yt:video:etcRgjG4qRo</id>
+  <yt:videoId>etcRgjG4qRo</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>comment what song you think he’s actually dancing to</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/etcRgjG4qRo"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2026-10-31T01:00:28+00:00</published>
+  <updated>2026-10-31T01:03:34+00:00</updated>
+  <media:group>
+   <media:title>comment what song you think he’s actually dancing to</media:title>
+   <media:content url="https://www.youtube.com/v/etcRgjG4qRo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/etcRgjG4qRo/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="296" average="5.00" min="1" max="5"/>
+    <media:statistics views="11594"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:iJWdJsDuEjA</id>
+  <yt:videoId>iJWdJsDuEjA</yt:videoId>
+  <yt:channelId>UCBR8-60-B28hp2BmDPdntcQ</yt:channelId>
+  <title>you heard @DaddyYankee 💌 send your message of love worldwide on YouTube Shorts.</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/iJWdJsDuEjA"/>
+  <author>
+   <name>YouTube</name>
+   <uri>https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ</uri>
+  </author>
+  <published>2026-10-30T23:23:17+00:00</published>
+  <updated>2026-10-30T23:23:22+00:00</updated>
+  <media:group>
+   <media:title>you heard @DaddyYankee 💌 send your message of love worldwide on YouTube Shorts.</media:title>
+   <media:content url="https://www.youtube.com/v/iJWdJsDuEjA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/iJWdJsDuEjA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>ya escuchaste a @DaddyYankee 💌 envía tu mensaje de amor al mundo entero través de YouTube Shorts.</media:description>
+   <media:community>
+    <media:starRating count="890" average="5.00" min="1" max="5"/>
+    <media:statistics views="150758"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

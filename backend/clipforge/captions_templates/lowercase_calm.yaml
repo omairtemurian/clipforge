@@ -1,0 +1,16 @@
+# Small lowercase white words with a soft shadow; the spoken word is mint.
+font: Inter Bold
+size: 50
+primary_color: "#FFFFFF"
+highlight_color: "#6EE7B7"
+emphasis_color: "#FDE68A"
+outline: 0
+outline_color: "#000000"
+shadow: 3
+box: false
+uppercase: false
+position: lower_third
+max_words_per_line: 4
+max_lines: 1
+animation: none
+emoji: false

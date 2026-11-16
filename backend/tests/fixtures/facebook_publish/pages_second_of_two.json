@@ -1,0 +1,17 @@
+{
+  "data": [
+    {
+      "access_token": "EAAcliplab-page-0012",
+      "category": "Internet Company",
+      "name": "Clip Lab",
+      "id": "104739358734012",
+      "tasks": ["CREATE_CONTENT"]
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "QVFIUkxNEXT",
+      "after": "QVFIUkxEND"
+    }
+  }
+}

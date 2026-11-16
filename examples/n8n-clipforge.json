@@ -1,0 +1,77 @@
+{
+  "name": "ClipForge events",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "clipforge",
+        "options": {}
+      },
+      "id": "7b1f0c5e-4f55-4c43-9a43-2f5c6d3a0001",
+      "name": "ClipForge webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [0, 0],
+      "webhookId": "7b1f0c5e-4f55-4c43-9a43-2f5c6d3a1001"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "string": [
+            {
+              "value1": "={{ $json.body.event }}",
+              "value2": "post.published"
+            }
+          ]
+        }
+      },
+      "id": "7b1f0c5e-4f55-4c43-9a43-2f5c6d3a0002",
+      "name": "Post published?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [240, 0]
+    },
+    {
+      "parameters": {
+        "values": {
+          "string": [
+            {
+              "name": "message",
+              "value": "=Clip {{ $json.body.data.post.clip_id }} is live on {{ $json.body.data.post.platform }}: {{ $json.body.data.post.url }}"
+            },
+            {
+              "name": "delivery_id",
+              "value": "={{ $json.headers['x-clipforge-delivery'] }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "7b1f0c5e-4f55-4c43-9a43-2f5c6d3a0003",
+      "name": "Write the message",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 2,
+      "position": [480, -80]
+    },
+    {
+      "parameters": {},
+      "id": "7b1f0c5e-4f55-4c43-9a43-2f5c6d3a0004",
+      "name": "Other events",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [480, 100]
+    }
+  ],
+  "connections": {
+    "ClipForge webhook": {
+      "main": [[{ "node": "Post published?", "type": "main", "index": 0 }]]
+    },
+    "Post published?": {
+      "main": [
+        [{ "node": "Write the message", "type": "main", "index": 0 }],
+        [{ "node": "Other events", "type": "main", "index": 0 }]
+      ]
+    }
+  },
+  "settings": { "executionOrder": "v1" }
+}

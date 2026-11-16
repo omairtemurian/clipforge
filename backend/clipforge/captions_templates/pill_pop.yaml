@@ -1,0 +1,16 @@
+# White words; the spoken word sits on a violet pill.
+font: Lilita One
+size: 58
+primary_color: "#FFFFFF"
+highlight_color: "#7C3AED"
+emphasis_color: "#FFD60A"
+outline: 3.5
+outline_color: "#111827"
+shadow: 0
+box: false
+uppercase: false
+position: lower_third
+max_words_per_line: 3
+max_lines: 1
+animation: pill
+emoji: false

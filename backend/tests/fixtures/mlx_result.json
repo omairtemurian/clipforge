@@ -1,0 +1,475 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 2.76,
+   "text": " most consistently and look at which clips perform best.",
+   "words": [
+    {
+     "word": " most",
+     "start": 0.0,
+     "end": 0.18,
+     "probability": 0.179
+    },
+    {
+     "word": " consistently",
+     "start": 0.18,
+     "end": 0.74,
+     "probability": 0.99
+    },
+    {
+     "word": " and",
+     "start": 0.74,
+     "end": 1.04,
+     "probability": 0.958
+    },
+    {
+     "word": " look",
+     "start": 1.04,
+     "end": 1.22,
+     "probability": 0.997
+    },
+    {
+     "word": " at",
+     "start": 1.22,
+     "end": 1.38,
+     "probability": 0.998
+    },
+    {
+     "word": " which",
+     "start": 1.38,
+     "end": 1.52,
+     "probability": 0.998
+    },
+    {
+     "word": " clips",
+     "start": 1.52,
+     "end": 1.9,
+     "probability": 0.997
+    },
+    {
+     "word": " perform",
+     "start": 1.9,
+     "end": 2.38,
+     "probability": 0.983
+    },
+    {
+     "word": " best.",
+     "start": 2.38,
+     "end": 2.76,
+     "probability": 0.984
+    }
+   ]
+  },
+  {
+   "start": 3.1,
+   "end": 7.78,
+   "text": " Kubernetes and OpenAI are both mentioned in many tech videos, so make sure the names",
+   "words": [
+    {
+     "word": " Kubernetes",
+     "start": 3.1,
+     "end": 3.46,
+     "probability": 0.579
+    },
+    {
+     "word": " and",
+     "start": 3.46,
+     "end": 3.78,
+     "probability": 0.992
+    },
+    {
+     "word": " OpenAI",
+     "start": 3.78,
+     "end": 4.28,
+     "probability": 0.851
+    },
+    {
+     "word": " are",
+     "start": 4.28,
+     "end": 4.56,
+     "probability": 0.996
+    },
+    {
+     "word": " both",
+     "start": 4.56,
+     "end": 4.76,
+     "probability": 0.999
+    },
+    {
+     "word": " mentioned",
+     "start": 4.76,
+     "end": 5.16,
+     "probability": 0.999
+    },
+    {
+     "word": " in",
+     "start": 5.16,
+     "end": 5.36,
+     "probability": 1.0
+    },
+    {
+     "word": " many",
+     "start": 5.36,
+     "end": 5.6,
+     "probability": 0.997
+    },
+    {
+     "word": " tech",
+     "start": 5.6,
+     "end": 5.86,
+     "probability": 0.973
+    },
+    {
+     "word": " videos,",
+     "start": 5.86,
+     "end": 6.26,
+     "probability": 0.997
+    },
+    {
+     "word": " so",
+     "start": 6.7,
+     "end": 6.9,
+     "probability": 0.993
+    },
+    {
+     "word": " make",
+     "start": 6.9,
+     "end": 7.12,
+     "probability": 0.996
+    },
+    {
+     "word": " sure",
+     "start": 7.12,
+     "end": 7.38,
+     "probability": 1.0
+    },
+    {
+     "word": " the",
+     "start": 7.38,
+     "end": 7.52,
+     "probability": 0.999
+    },
+    {
+     "word": " names",
+     "start": 7.52,
+     "end": 7.78,
+     "probability": 0.998
+    }
+   ]
+  },
+  {
+   "start": 7.78,
+   "end": 8.54,
+   "text": " are spelled right.",
+   "words": [
+    {
+     "word": " are",
+     "start": 7.78,
+     "end": 7.96,
+     "probability": 1.0
+    },
+    {
+     "word": " spelled",
+     "start": 7.96,
+     "end": 8.22,
+     "probability": 0.999
+    },
+    {
+     "word": " right.",
+     "start": 8.22,
+     "end": 8.54,
+     "probability": 0.989
+    }
+   ]
+  },
+  {
+   "start": 8.92,
+   "end": 10.16,
+   "text": " Welcome back to the channel.",
+   "words": [
+    {
+     "word": " Welcome",
+     "start": 8.92,
+     "end": 9.2,
+     "probability": 0.978
+    },
+    {
+     "word": " back",
+     "start": 9.2,
+     "end": 9.52,
+     "probability": 0.99
+    },
+    {
+     "word": " to",
+     "start": 9.52,
+     "end": 9.7,
+     "probability": 1.0
+    },
+    {
+     "word": " the",
+     "start": 9.7,
+     "end": 9.8,
+     "probability": 0.999
+    },
+    {
+     "word": " channel.",
+     "start": 9.8,
+     "end": 10.16,
+     "probability": 0.987
+    }
+   ]
+  },
+  {
+   "start": 10.54,
+   "end": 14.94,
+   "text": " Today we are talking about how to turn long videos into short clips that people actually",
+   "words": [
+    {
+     "word": " Today",
+     "start": 10.54,
+     "end": 10.72,
+     "probability": 0.993
+    },
+    {
+     "word": " we",
+     "start": 10.72,
+     "end": 10.98,
+     "probability": 0.985
+    },
+    {
+     "word": " are",
+     "start": 10.98,
+     "end": 11.12,
+     "probability": 0.995
+    },
+    {
+     "word": " talking",
+     "start": 11.12,
+     "end": 11.46,
+     "probability": 0.999
+    },
+    {
+     "word": " about",
+     "start": 11.46,
+     "end": 11.76,
+     "probability": 1.0
+    },
+    {
+     "word": " how",
+     "start": 11.76,
+     "end": 12.02,
+     "probability": 0.98
+    },
+    {
+     "word": " to",
+     "start": 12.02,
+     "end": 12.16,
+     "probability": 0.999
+    },
+    {
+     "word": " turn",
+     "start": 12.16,
+     "end": 12.38,
+     "probability": 0.995
+    },
+    {
+     "word": " long",
+     "start": 12.38,
+     "end": 12.64,
+     "probability": 0.963
+    },
+    {
+     "word": " videos",
+     "start": 12.64,
+     "end": 13.02,
+     "probability": 0.993
+    },
+    {
+     "word": " into",
+     "start": 13.02,
+     "end": 13.32,
+     "probability": 0.999
+    },
+    {
+     "word": " short",
+     "start": 13.32,
+     "end": 13.66,
+     "probability": 0.997
+    },
+    {
+     "word": " clips",
+     "start": 13.66,
+     "end": 13.98,
+     "probability": 0.997
+    },
+    {
+     "word": " that",
+     "start": 13.98,
+     "end": 14.22,
+     "probability": 0.998
+    },
+    {
+     "word": " people",
+     "start": 14.22,
+     "end": 14.54,
+     "probability": 0.999
+    },
+    {
+     "word": " actually",
+     "start": 14.54,
+     "end": 14.94,
+     "probability": 0.991
+    }
+   ]
+  },
+  {
+   "start": 14.94,
+   "end": 15.98,
+   "text": " want to watch.",
+   "words": [
+    {
+     "word": " want",
+     "start": 14.94,
+     "end": 15.38,
+     "probability": 0.994
+    },
+    {
+     "word": " to",
+     "start": 15.38,
+     "end": 15.58,
+     "probability": 1.0
+    },
+    {
+     "word": " watch.",
+     "start": 15.58,
+     "end": 15.98,
+     "probability": 1.0
+    }
+   ]
+  },
+  {
+   "start": 16.24,
+   "end": 19.36,
+   "text": " First, you need a strong hook in the opening 3 seconds.",
+   "words": [
+    {
+     "word": " First,",
+     "start": 16.24,
+     "end": 16.52,
+     "probability": 0.962
+    },
+    {
+     "word": " you",
+     "start": 16.94,
+     "end": 17.1,
+     "probability": 0.97
+    },
+    {
+     "word": " need",
+     "start": 17.1,
+     "end": 17.28,
+     "probability": 0.998
+    },
+    {
+     "word": " a",
+     "start": 17.28,
+     "end": 17.42,
+     "probability": 0.999
+    },
+    {
+     "word": " strong",
+     "start": 17.42,
+     "end": 17.68,
+     "probability": 0.997
+    },
+    {
+     "word": " hook",
+     "start": 17.68,
+     "end": 17.94,
+     "probability": 0.997
+    },
+    {
+     "word": " in",
+     "start": 17.94,
+     "end": 18.12,
+     "probability": 0.993
+    },
+    {
+     "word": " the",
+     "start": 18.12,
+     "end": 18.22,
+     "probability": 0.999
+    },
+    {
+     "word": " opening",
+     "start": 18.22,
+     "end": 18.56,
+     "probability": 0.999
+    },
+    {
+     "word": " 3",
+     "start": 18.56,
+     "end": 18.92,
+     "probability": 0.562
+    },
+    {
+     "word": " seconds.",
+     "start": 18.92,
+     "end": 19.36,
+     "probability": 0.978
+    }
+   ]
+  },
+  {
+   "start": 19.76,
+   "end": 21.98,
+   "text": " Second, keep the story tight and cut.",
+   "words": [
+    {
+     "word": " Second,",
+     "start": 19.76,
+     "end": 20.14,
+     "probability": 0.976
+    },
+    {
+     "word": " keep",
+     "start": 20.56,
+     "end": 20.74,
+     "probability": 0.973
+    },
+    {
+     "word": " the",
+     "start": 20.74,
+     "end": 20.96,
+     "probability": 0.999
+    },
+    {
+     "word": " story",
+     "start": 20.96,
+     "end": 21.28,
+     "probability": 0.991
+    },
+    {
+     "word": " tight",
+     "start": 21.28,
+     "end": 21.54,
+     "probability": 0.996
+    },
+    {
+     "word": " and",
+     "start": 21.54,
+     "end": 21.8,
+     "probability": 0.947
+    },
+    {
+     "word": " cut.",
+     "start": 21.8,
+     "end": 21.98,
+     "probability": 0.751
+    }
+   ]
+  }
+ ]
+}

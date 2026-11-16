@@ -1,0 +1,3 @@
+# Dutch. "nou" only between pauses.
+always: ["eh", "ehm", "euh", "uh", "uhm"]
+alone: ["nou"]

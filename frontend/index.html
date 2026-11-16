@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f5f7" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link
+      rel="preload"
+      href="/fonts/Poppins-Regular.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/Poppins-Medium.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <title>ClipForge</title>
+    <!-- The saved theme before first paint (same rules as src/lib/theme.ts). -->
+    <script id="theme-init">
+      (function () {
+        var choice = "light";
+        try {
+          var saved = localStorage.getItem("clipforge.theme");
+          if (saved === "light" || saved === "dark" || saved === "system") {
+            choice = saved;
+          }
+        } catch (error) {}
+        var dark =
+          choice === "dark" ||
+          (choice === "system" &&
+            !!window.matchMedia &&
+            window.matchMedia("(prefers-color-scheme: dark)").matches);
+        var root = document.documentElement;
+        root.classList.toggle("dark", dark);
+        root.style.colorScheme = dark ? "dark" : "light";
+        document
+          .querySelector('meta[name="theme-color"]')
+          .setAttribute("content", dark ? "#1e1e20" : "#f5f5f7");
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

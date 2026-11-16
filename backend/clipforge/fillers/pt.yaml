@@ -1,0 +1,4 @@
+# Portuguese ("é" is a word, so it is not listed). "tipo", "né" and "eh"
+# only between pauses.
+always: ["hum", "humm", "ahn", "hã", "hãã"]
+alone: ["tipo", "né", "eh"]

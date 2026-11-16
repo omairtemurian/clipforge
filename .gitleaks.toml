@@ -1,0 +1,7 @@
+# Test fixtures hold fake OAuth values (cliplab placeholders, Twitch's docs example token).
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "fake test fixtures"
+paths = ['''^backend/tests/''']

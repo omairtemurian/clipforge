@@ -1,0 +1,9 @@
+{
+  "error": {
+    "message": "(#10) Application does not have permission for this action",
+    "type": "OAuthException",
+    "code": 10,
+    "is_transient": false,
+    "fbtrace_id": "AbCdEfGhIjKlMnOp"
+  }
+}

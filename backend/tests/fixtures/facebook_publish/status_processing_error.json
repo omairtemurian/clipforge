@@ -1,0 +1,14 @@
+{
+  "status": {
+    "video_status": "processing",
+    "uploading_phase": { "status": "complete" },
+    "processing_phase": {
+      "status": "not_started",
+      "error": {
+        "message": "Resolution too low. Video must have a minimum resolution of 540p."
+      }
+    },
+    "publishing_phase": { "status": "not_started" }
+  },
+  "id": "1203457689012345"
+}

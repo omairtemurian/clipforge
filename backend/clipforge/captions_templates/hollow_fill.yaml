@@ -1,0 +1,16 @@
+# Outline-only white words; the spoken word fills in yellow.
+font: Archivo Black
+size: 58
+primary_color: "#FFFFFF"
+highlight_color: "#FFD60A"
+emphasis_color: "#FF4D6D"
+outline: 3
+outline_color: "#000000"
+shadow: 0
+box: false
+uppercase: true
+position: lower_third
+max_words_per_line: 3
+max_lines: 1
+animation: hollow
+emoji: false

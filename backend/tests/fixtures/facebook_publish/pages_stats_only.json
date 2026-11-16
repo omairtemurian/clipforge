@@ -1,0 +1,17 @@
+{
+  "data": [
+    {
+      "access_token": "EAAcliplab-page-stats",
+      "category": "Blogger",
+      "name": "Clip Lab Stats",
+      "id": "104739358734014",
+      "tasks": ["ANALYZE", "MODERATE"]
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "QVFIUk1",
+      "after": "QVFIUkx"
+    }
+  }
+}

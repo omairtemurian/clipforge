@@ -1,0 +1,13 @@
+# White uppercase words with a thick outline; the spoken word turns yellow.
+font: Montserrat ExtraBold
+size: 62
+primary_color: "#FFFFFF"
+highlight_color: "#FFD23F"
+emphasis_color: "#FF6B35"
+outline: 3.7
+shadow: 1.9
+box: false
+uppercase: true
+position: lower_third
+max_words_per_line: 3
+emoji: false

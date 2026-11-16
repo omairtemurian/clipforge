@@ -1,0 +1,16 @@
+# Rounded white words; each spoken word springs in, in aqua.
+font: Lilita One
+size: 62
+primary_color: "#FFFFFF"
+highlight_color: "#22D3EE"
+emphasis_color: "#FDE047"
+outline: 4
+outline_color: "#082F49"
+shadow: 0
+box: false
+uppercase: false
+position: lower_third
+max_words_per_line: 3
+max_lines: 1
+animation: bounce
+emoji: true

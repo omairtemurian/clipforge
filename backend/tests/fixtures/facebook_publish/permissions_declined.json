@@ -1,0 +1,7 @@
+{
+  "data": [
+    { "permission": "pages_show_list", "status": "granted" },
+    { "permission": "pages_read_engagement", "status": "granted" },
+    { "permission": "pages_manage_posts", "status": "declined" }
+  ]
+}

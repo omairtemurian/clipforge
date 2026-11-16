@@ -1,0 +1,15 @@
+{
+  "rationale": "Standard-intensity Skull Moment edit of an 18 s story clip: whole-clip look with a music bed, a hook punch, a punch on the stressed word and one skull moment at the 'cheese' reveal. Items stay well inside the budget.",
+  "items": [
+    {"kind": "caption_style", "t_start": 0, "t_end": 18, "params": {"style": "bounce", "shake_on_loud": true, "emphasis_scale": 1.2, "emoji": false}, "reason": "Preset look: bouncing kinetic captions over the whole clip."},
+    {"kind": "vignette", "t_start": 0, "t_end": 18, "params": {"strength": 0.3}, "reason": "Preset look: soft vignette over the whole clip."},
+    {"kind": "music_bed", "t_start": 0, "t_end": 18, "params": {"asset": "night_drive", "offset": 0.0, "gain_db": -18.0}, "reason": "Dramatic electronic bed that matches the preset mood."},
+    {"kind": "zoom_punch", "t_start": 0.0, "t_end": 0.5, "params": {"scale": 1.25, "ease_frames": 0}, "reason": "Hook punch on the opening words."},
+    {"kind": "zoom_punch", "t_start": 15.93, "t_end": 16.3, "params": {"scale": 1.25, "ease_frames": 0}, "reason": "Punch on the stressed word 'cheese'."},
+    {"kind": "freeze_frame", "t_start": 16.37, "t_end": 17.6, "params": {}, "reason": "Skull moment: freeze the frame as he is caught after the cheese line."},
+    {"kind": "grade_change", "t_start": 16.37, "t_end": 17.6, "params": {"look": "bw"}, "reason": "Skull moment: instant black and white on the freeze."},
+    {"kind": "overlay", "t_start": 16.37, "t_end": 17.6, "params": {"asset": "skull", "anchor": "face", "scale": 0.35}, "reason": "Skull moment: skull on his face."},
+    {"kind": "shake", "t_start": 16.37, "t_end": 16.8, "params": {"strength": 0.6, "frequency_hz": 14}, "reason": "Skull moment: shake on the hit."},
+    {"kind": "sfx", "t_start": 16.37, "t_end": 17.57, "params": {"asset": "impact_boom", "gain_db": -6}, "reason": "Boom on the skull freeze."}
+  ]
+}

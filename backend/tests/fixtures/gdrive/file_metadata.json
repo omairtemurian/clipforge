@@ -1,0 +1,12 @@
+{
+  "id": "1AbCdEfGhIjKlMnOpQrStUvWxYz012345",
+  "name": "Team offsite talk.mp4",
+  "mimeType": "video/mp4",
+  "size": "SIZE",
+  "capabilities": {
+    "canDownload": true
+  },
+  "videoMediaMetadata": {
+    "durationMillis": "60033"
+  }
+}

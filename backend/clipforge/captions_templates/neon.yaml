@@ -1,0 +1,13 @@
+# Glowing cyan uppercase words; the spoken word turns magenta, with emoji.
+font: Montserrat ExtraBold
+size: 57
+primary_color: "#00E5FF"
+highlight_color: "#FF2BD6"
+emphasis_color: "#39FF14"
+outline: 2.5
+shadow: 0
+box: false
+uppercase: true
+position: lower_third
+max_words_per_line: 3
+emoji: true

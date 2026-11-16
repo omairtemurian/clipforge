@@ -1,0 +1,11 @@
+{
+  "kind": "youtube#thumbnailSetResponse",
+  "etag": "Hg7fE6dC5bA4zY3xW2vU1tS0rQ9",
+  "items": [
+    {
+      "default": { "url": "https://i.ytimg.com/vi/dQ8wX4yZ1aB/default.jpg", "width": 120, "height": 90 },
+      "medium": { "url": "https://i.ytimg.com/vi/dQ8wX4yZ1aB/mqdefault.jpg", "width": 320, "height": 180 },
+      "high": { "url": "https://i.ytimg.com/vi/dQ8wX4yZ1aB/hqdefault.jpg", "width": 480, "height": 360 }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+# Glitch: flashes, RGB split, digital glitch frames and audio stutter at the
+# transitions and key words, with a cold digital grade and glitch clicks.
+name: Glitch
+description: Glitch frames, RGB split and flashes on transitions and key words, stutter and clicks.
+kinds:
+  [zoom_punch, flash, glitch, rgb_split, shake, transition, grade_change,
+   caption_style, sfx, music_bed, silence_before_drop, audio_fx]
+music:
+  moods: [electronic, driving, dramatic]
+  bpm: [110, 150]
+  gain_db: -16
+caption_style: {style: pop, shake_on_loud: true}
+grade: {look: lut, lut: cold_night, amount: 0.5}
+params:
+  zoom_punch: {scale: 1.15, ease_frames: 0}
+  glitch: {strength: 0.6}
+  rgb_split: {offset_px: 10}
+  flash: {color: white, peak: 0.7}
+  transition: {type: glitch}
+  sfx: {asset: tick_click, gain_db: -8}
+  audio_fx: {effect: stutter, amount: 0.5}
+lengths:
+  audio_fx: 0.3
+rules:
+  - signal: hook
+    moves: [glitch]
+  - signal: scene_cut
+    moves: [transition, audio_fx]
+  - signal: punchline
+    moves: [glitch, zoom_punch, audio_fx]
+  - signal: emphasis
+    moves: [rgb_split, glitch, flash]
+    cycle: true
+  - signal: emphasis
+    moves: [sfx]
+    from_intensity: standard
+  - signal: downbeat
+    moves: [flash, rgb_split]
+    cycle: true
+    from_intensity: pro
+interrupts: [glitch, rgb_split, flash, zoom_punch]

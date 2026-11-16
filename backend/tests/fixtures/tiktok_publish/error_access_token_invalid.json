@@ -1,0 +1,8 @@
+{
+  "data": {},
+  "error": {
+    "code": "access_token_invalid",
+    "message": "The access token is invalid or not found in the request.",
+    "log_id": "20261101073001F1E2D3C4B5A6978869AB"
+  }
+}

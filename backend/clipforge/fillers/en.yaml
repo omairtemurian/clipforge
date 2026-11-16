@@ -1,0 +1,3 @@
+# English. "like" and "hmm" are words too: fillers only between pauses.
+always: ["um", "umm", "uh", "uhh", "uhm", "erm", "ah"]
+alone: ["like", "hmm"]

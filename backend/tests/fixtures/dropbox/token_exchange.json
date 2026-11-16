@@ -1,0 +1,9 @@
+{
+  "access_token": "sl.recorded-access-token-1",
+  "token_type": "bearer",
+  "expires_in": 14400,
+  "refresh_token": "recorded-dropbox-refresh-token",
+  "scope": "sharing.read",
+  "uid": "123456789",
+  "account_id": "dbid:AAH4f99T0taONIb-OurWxbNQ6ywGRopQngc"
+}

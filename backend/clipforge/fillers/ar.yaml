@@ -1,0 +1,3 @@
+# Arabic. "يعني" (I mean) and "طيب" (okay) only between pauses.
+always: ["ممم", "اممم", "إممم", "آآ"]
+alone: ["يعني", "طيب"]

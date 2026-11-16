@@ -1,0 +1,9 @@
+{
+  "status": {
+    "video_status": "expired",
+    "uploading_phase": { "status": "complete" },
+    "processing_phase": { "status": "not_started" },
+    "publishing_phase": { "status": "not_started" }
+  },
+  "id": "1203457689012345"
+}

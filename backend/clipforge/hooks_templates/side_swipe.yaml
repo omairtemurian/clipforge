@@ -1,0 +1,24 @@
+# Tall condensed words swipe in from the left and out to the left again.
+label: Side Swipe
+description: Tall words swipe across the frame with a whoosh.
+duration: 2.5
+uppercase: true
+max_chars_per_line: 15
+layers:
+  - text: "{text}"
+    font: Bebas Neue
+    size: 0.08
+    color: "#FFFFFF"
+    stroke: "#141414"
+    stroke_width: 0.06
+    y: 0.35
+    animation_in: slide_right
+    animation_out: slide_left
+    in_seconds: 0.3
+    out_seconds: 0.3
+punch:
+  scale: 1.12
+  attack: 0.25
+  release: 0.35
+sound: whoosh_swift.flac
+sound_volume: 0.8

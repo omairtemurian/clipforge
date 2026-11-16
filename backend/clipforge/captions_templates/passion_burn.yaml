@@ -1,0 +1,16 @@
+# Tall heavy capitals in cream; the spoken word burns orange.
+font: Passion One Black
+size: 62
+primary_color: "#FFF4E0"
+highlight_color: "#FF8A00"
+emphasis_color: "#FF3D00"
+outline: 4.5
+outline_color: "#2B0F00"
+shadow: 0
+box: false
+uppercase: true
+position: lower_third
+max_words_per_line: 3
+max_lines: 1
+animation: none
+emoji: false
