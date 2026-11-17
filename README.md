@@ -965,6 +965,18 @@ Calendar, Post history, Social accounts; Settings) and the work area. The logo i
 
 If ClipForge saves you time, a ⭐ on GitHub helps others find it.
 
+## Support the project
+
+ClipForge is free and open source. If it saves you time or money, you can
+support its development with a donation via PayPal. Scan the code below with
+your phone camera or the PayPal app.
+
+<p align="center">
+  <img src="docs/assets/paypal-qr.png" alt="PayPal donation QR code" width="200" height="200">
+</p>
+
+Starring the repo and sharing it also helps a lot.
+
 ## Responsible use
 
 Only clip and post videos you own or have permission to use. Auto-posting to
